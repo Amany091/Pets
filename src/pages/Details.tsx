@@ -1,7 +1,7 @@
 import {  useState } from "react"
 import { useParams, useNavigate } from "react-router-dom"
 
-import Carousel from "../components/carousel"
+import Carousel from "../components/Carousel"
 import usePet from "../components/hooks/usePet"
 import { useContext } from "react"
 import AdoptedPetContext from "../context/adoptedPetContect"

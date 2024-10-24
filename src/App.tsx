@@ -16,7 +16,7 @@ function App() {
     defaultOptions: {
       queries: {
         staleTime: Infinity, // the cache will always return the cached data , even if it's outdated
-        cacheTime : Infinity // the cache will store the data until is manually cleared or the application is restarted
+        // cacheTime : Infinity // the cache will store the data until is manually cleared or the application is restarted
       }
     }
   })
