@@ -15,7 +15,7 @@ const Result = ({ pets }: Props) => {
                 (
                     pets?.map(pet => {
                         return (
-                            <div id="search" key={pet.id}>
+                            <div id="search" key={pet.id} style={{width:"100%"}}>
                                 <Pet
                                     name={pet.name}
                                     animal={pet.animal}
